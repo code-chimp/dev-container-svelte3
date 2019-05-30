@@ -2,7 +2,8 @@
 
 ## - now with more [Dev Container!!](https://code.visualstudio.com/docs/remote/containers)
 
-This based on the original project template for [Svelte](https://svelte.dev) apps that can be found at https://github.com/sveltejs/template.
+This is based on the original project template for [Svelte](https://svelte.dev) apps
+that can be found at https://github.com/sveltejs/template.
 
 ## Prereqs
 
