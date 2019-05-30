@@ -7,7 +7,7 @@ COPY package.json package-lock.json* ./
 RUN npm ci && npm cache clean --force
 
 COPY ./ .
-RUN npm build
+RUN npm run build
 
 ## Final image
 FROM nginx:alpine

@@ -50,6 +50,19 @@ git add -A
 git commit -m ':tada: Fresh Template Clone'
 ```
 
+## Create and Host a Docker Image
+
+You can create a Docker image of a production build outside of the Dev Container environment when you are ready to see what the deployed production app would look like.
+
+**FROM THE HOST SYSTEM** **_example_**:
+
+```
+docker build -t new-svelte-image .
+docker run --name new-svelte-process -p 3000:80 -d new-svelte-image:latest
+```
+
+Open your browser to http://localhost:3000 and marvel at your brilliance
+
 ## Things Not Working
 
 - Host machine's browser does not pick up on the autoreload, need to refresh page manually.
