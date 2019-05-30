@@ -1,0 +1,32 @@
+{
+  "name": "Svelte 3 (base)",
+  "dockerFile": "Dockerfile",
+  "appPort": 5000,
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "prettier.requireConfig": true
+  },
+  "extensions": [
+    "2gua.rainbow-brackets",
+    "alexdima.copy-relative-path",
+    "benjaminadk.emojis4git",
+    "britesnow.vscode-toggle-quotes",
+    "christian-kohler.path-intellisense",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "jamesbirtles.svelte-vscode",
+    "jerryhong.autofilename",
+    "naumovs.color-highlight",
+    "robinbentley.sass-indented",
+    "shinnn.stylelint",
+    "streetsidesoftware.code-spell-checker",
+    "waderyan.gitblame",
+    "yzhang.markdown-all-in-one"
+  ],
+  "postCreateCommand": "npm ci"
+}

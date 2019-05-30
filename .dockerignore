@@ -1,0 +1,15 @@
+node_modules
+.idea
+.vscode
+.DS_Store
+.git
+
+.dockerignore
+.editorconfig
+.eslintrc.json
+.gitattributes
+.gitignore
+.prettierrc
+LICENSE
+Dockerfile
+*.md
