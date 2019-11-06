@@ -5,7 +5,8 @@ that can be found at https://github.com/sveltejs/template.
 
 ## Prereqs
 
-- [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/) - As of this time container development only works on the Insiders channel
+- ~~[Visual Studio Code Insiders](https://code.visualstudio.com/insiders/) - As of this time container development only works on the Insiders channel~~
+- [Visual Studio Code](https://code.visualstudio.com/) - yay, IDE
 - [Remote Development Extensions](https://aka.ms/vscode-remote/download) - For Visual Studio Code
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) - For Windows or Mac
 - [degit](https://github.com/Rich-Harris/degit) ( `npm install -g degit` ) - Easy project scaffolding
@@ -17,7 +18,7 @@ Scaffold a fresh project off of this template:
 1. Use [degit](https://github.com/Rich-Harris/degit) to clone this template to a new project
 2. Change directory to the new project
 3. Initialize a new repository
-4. Open the project in [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
+4. Open the project in [Visual Studio Code](https://code.visualstudio.com/)
 
 ```bash
 npx degit code-chimp/dev-container-svelte3 new-svelte-app
