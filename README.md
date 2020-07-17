@@ -24,7 +24,7 @@ Scaffold a fresh project off of this template:
 npx degit code-chimp/dev-container-svelte3 new-svelte-app
 cd new-svelte-app
 git init
-code-insiders .
+code .
 ```
 
 **NOTE:** All git **_commits_** will need to happen from the Dev Container as it has static analysis tools and pre-commit hooks installed inside of the container

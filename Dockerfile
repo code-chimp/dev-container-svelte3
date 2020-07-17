@@ -1,5 +1,5 @@
 ## Build image
-FROM node:12 as application
+FROM node:14 as application
 
 WORKDIR /var/app
 

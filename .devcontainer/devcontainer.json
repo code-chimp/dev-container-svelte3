@@ -1,12 +1,6 @@
 {
   "name": "Svelte 3 (base)",
   "dockerFile": "Dockerfile",
-  "appPort": 5000,
-  "settings": {
-    "editor.formatOnSave": true,
-    "files.eol": "\n",
-    "prettier.requireConfig": true
-  },
   "extensions": [
     "2gua.rainbow-brackets",
     "alexdima.copy-relative-path",
@@ -28,5 +22,12 @@
     "waderyan.gitblame",
     "yzhang.markdown-all-in-one"
   ],
-  "postCreateCommand": "npm ci"
+  "forwardPorts": [5000],
+  "postCreateCommand": "npm ci",
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "prettier.requireConfig": true,
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
 }
