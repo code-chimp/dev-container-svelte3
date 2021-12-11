@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:16
 
 # Configure apt
 ENV DEBIAN_FRONTEND=noninteractive
