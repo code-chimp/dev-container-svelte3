@@ -55,7 +55,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "set-value": ">=4.0.1",
     "sirv-cli": "^1.0.11",
-    "svelte": "^3.38.2",
+    "svelte": "^3.49.0",
     "ws": "^7.4.6"
   }
 }
